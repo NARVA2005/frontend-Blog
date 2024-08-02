@@ -1,0 +1,32 @@
+/* aboutUs.css */
+
+/* Cambia el tipo de letra globalmente o para este componente */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilo para el título */
+.title-font {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+/* Estilo para la tarjeta */
+.custom-card {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+}
+
+.img-style {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor, o usa un tamaño fijo como '200px' */
+    max-width: 400px; /* Establece un ancho máximo */
+    height: auto; /* Mantiene la relación de aspecto */
+    object-fit: cover; /* Ajusta el contenido para cubrir el contenedor */
+  }
+
+/* Estilo para el texto del cuerpo */
+.body-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #666;
+}
+
